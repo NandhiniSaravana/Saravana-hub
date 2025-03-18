@@ -1686,3 +1686,20 @@ input, select, textarea {
 			color: #333; /* Change color if needed */
 		}
 		
+		.navbar {
+			display: flex;
+			justify-content: space-between; /* Push items apart */
+			padding: 10px 20px;
+		}
+		
+		.back-button {
+			margin-left: auto; /* Pushes "Home" to the right */
+		}
+		
+		.back-button a {
+			text-decoration: none;
+			font-size: 18px;
+			color: white;
+			padding: 10px;
+		}
+		
